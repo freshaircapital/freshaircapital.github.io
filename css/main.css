@@ -6,8 +6,8 @@ body{
 }
 
 .container{
-  width: 80%;
-  max-width: 960px;
+  width: 90%;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -17,6 +17,11 @@ p{
 
 ul{
   margin-bottom: 3rem;
+}
+
+p.headline{
+  font-size: 2.2em;
+  margin-bottom: 5rem;
 }
 
 /* ==========================================================================
@@ -48,17 +53,15 @@ ul{
 .intro{
   width: 100%;
   margin: 0;
-  padding: 10rem 0;
+  padding: 5em 0;
   position: relative;
   text-align: center;
 }
 
-p.headline{
-  font-size: 2.2em;
-  margin-bottom: 5rem;
-}
+/* MAIN */
 
 .main{
+text-align: center;
   padding: 10rem 0;
   background-color: #E9F4F9;
 }
