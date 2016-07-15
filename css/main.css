@@ -1,0 +1,25 @@
+body{margin: 0; padding: 0}
+
+/* ==========================================================================
+   Fresh Air...
+   ========================================================================== */
+
+/* MASTHEAD */
+.masthead{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #eee;
+  display: flex;
+  /* background image - todo, make js responsive */
+  background-image: url('../img/masthead-home-large.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.masthead .logo{
+  width: 40%;
+  margin: auto auto;
+  vertical-align: middle;
+}
