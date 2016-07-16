@@ -1,14 +1,13 @@
+/* ==========================================================================
+   Fresh Air...
+   ========================================================================== */
+* { box-sizing: border-box; }
+
 body{
   margin: 0; padding: 0;
   font-family: 'Cairo', helvetica, arial, sans-serif;
   font-weight: 200;
   font-size: 20px;
-}
-
-.container{
-  width: 90%;
-  max-width: 1140px;
-  margin: 0 auto;
 }
 
 p{
@@ -24,9 +23,43 @@ p.headline{
   margin-bottom: 5rem;
 }
 
-/* ==========================================================================
-   Fresh Air...
-   ========================================================================== */
+
+/* list block */
+.list-blocks{
+  list-style: none;
+  list-style-type: none;
+  width: 100%; overflow: hidden;
+  padding: 0; margin: 0; margin-bottom: 60px;
+}
+.list-blocks li{
+  position: relative;
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+
+.inner-block{
+  margin: auto 20px; padding: 20px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.3);
+  text-align: center;
+  display: flex;
+}
+
+.inner-block div{margin: auto;}
+
+
+.list-blocks--3 li{width: 33.3%}
+.list-blocks--4 li{width: 25%}
+
+/* LAYOUTS */
+
+.container{
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 
 /* MASTHEAD */
 .masthead{
